@@ -1,0 +1,106 @@
+<!Doctype.html>
+<html>
+
+  <head>
+    <Title>MyPortfolio</Title>
+    <!---Local-->
+    <script src="Portfolio.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <!--Hosted-->
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  </head>
+
+  <body onload="Opening()">
+
+    <!--background image-->
+    <div id="background">
+    </div>
+
+    <!--for opacity-->
+    <div id="blackout">
+    </div>
+
+    <!--Animated intro-->
+    <div class="title">
+
+      <h1 id="Intro1"> Hello, my name is <span id="name">Matthew Livesey</span> </h1>
+      <h1 id="Intro2"> and I am a budding Web Designer </h1>
+	  
+	  <img id="animation" src="Grow.Gif" alt="Animation">
+
+    </div>
+
+    <!--About Me Slide Box-->
+    <div id="AboutMe" style="width: 0%">
+      <div class="info">
+	  <h4>LinkedIn Profile: <a href="https://www.linkedin.com/in/matthew-livesey-a47660184">Matthew Livesey</a></h4>
+        <h3> Bio </h3>
+        My name is <span style="color:rgb(0, 61, 153); font-weight: bold";>Matthew Livesey</span> and I am an up and coming <span style="color:rgb(0, 61, 153); font-weight: bold";>Web Designer</span>, I have recently completed a course at the level of QCF level 3 I'm currently working as a chef but have a passion for computers and technology. I want to pursue this interest and expand my knowledge and experience, I enjoy
+        the puzzle Solving element of Javascript I enjoy making alterations with CSS and working on dynamic experiences online.<br>
+        <hr> I have been doing Web design now for a total of 1 and a half years, consistently brushing up on my skills and expanding my knowledge, I am now seeking opportunities to put these aquired skills to use.<br><br> I am a person who enjoys challenging
+        themselves and setting high goals, I believe it's through challenge and adversity that knowledge can truly be tested and gained, While success is great, there is more to be learned from failures if you do not allow them to get you down and instead
+        actively try to learn from them.<br>
+        <hr> I am a caring individual with an emphasis on nature and looking after the planet and it's wildlife. I enjoy going out at night and stargazing looking up at the wonders of the sky. When I have time to myself, I spend it gaming, researching, or
+        playing guitar I also enjoy tinkering with my home built PC.
+      </div>
+    </div>
+
+
+    <!--My Skills Slide Box-->
+    <div id="MySkills" style="width: 0%">
+      <div class="info">
+        <h3> Qualifications </h3>
+        <p>QCF level 3:</p>
+        <ul>
+          <li> HTML</li>
+          <li> CSS</li>
+          <li> Javascript</li>
+        </ul>
+        <p>BTEC level 3:</p>
+        <ul>
+          <li>Graphic Design</li>
+        </ul>
+        <p>Misc:</p>
+        <ul>
+          <li>Level 2 Key skills in Communication</li>
+          <li>Level 2 Digital Applications</li>
+          <li>GCSE Art and Design - C</li>
+          <li>GCSE Business Studies - D</li>
+        </ul>
+        <p>Personal Skills:</p>
+        <ul>
+          <li>Timekeeping</li>
+          <li>Working under pressure</li>
+          <li>Reliability</li>
+          <li>Passionate</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+
+	<!--My Passion Slide Box-->
+    <div id="MyPassion" style="width: 0%">
+      <div class="info">
+        <h3>Hobbies</h3>
+        <p> In my spare time I enjoy playing guitar, I've been playing guitar now for 6 years and still have much to learn.</p>
+        <p> Gaming is a big hobby of mine, I really enjoy games that will challenge me and puzzle games that get my brain going, other than that RPG's and story driven games are my go to for entertainment purposes.</p>
+        <p> I own a homebuilt PC and I really enjoy opening her up and inspecting the parts, cleaning them and managing the cables, She's a little neglected at the moment and needs new parts before it gets outdated!</p>
+        <p> I have a passion for space and the cosmos going out and seeing the stars under the dark night sky and watching the layers of stars appear before you is incredible. It really puts the world we live in into perspective I've recently aquired a telescope
+          for closer and clearer viewing. I'm dying to get some great observations. I'm also working on a personal project to mathematically model the planets in our solar system using Javascript</p>
+        <h3> Interests </h3>
+        <p>I have an interest in science and I try to keep up to date with the latest developments, recently a black hole was finally imaged which is pretty incredible.</p>
+        <p>Nature in general really fascinates me, Ive always wanted to see more of the world and travel to breathtaking locations.
+      </div>
+    </div>
+
+	<!--Navigation Links-->
+    <div id="navigation">
+      <a href="#AboutMe" onclick="OpenAboutMe()">About Me</a>
+      <a href="#MySkills" onclick="OpenMySkills()">My skills</a>
+      <a href="#MyPassion" onclick="OpenMyPassion()">My Passion</a>
+    </div>
+
+  </body>
+
+</html>
